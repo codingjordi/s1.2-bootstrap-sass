@@ -23613,4 +23613,17 @@ a:hover {
   border: 1px solid inherit;
   background: none;
   color: #5265E1;
+}
+
+.card {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #firefox {
+    margin-top: 3.5rem;
+  }
+  #opera {
+    margin-top: 5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
