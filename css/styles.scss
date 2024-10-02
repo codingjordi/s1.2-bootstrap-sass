@@ -55,9 +55,9 @@ a:hover {
 }
 
 .btn-primary {
-    white-space: nowrap; // Evita que el texto se divida en varias líneas
-    min-width: 20px; // Ajusta el ancho mínimo según tus necesidades
-    transition: transform 0.2s; // Suaviza la transformación
+    white-space: nowrap; 
+    min-width: 20px; 
+    transition: transform 0.2s;
     background-color: $primary;
 }
 
@@ -94,8 +94,6 @@ a:hover {
     }
 }
 
-
-
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
     color: $secondary;
@@ -111,7 +109,6 @@ a:hover {
 .nav-item {
     padding-bottom: 0.6rem;
 }
-
 
  .btn:hover {
      border: 1px solid inherit;
@@ -182,9 +179,7 @@ a:hover {
          &:focus {
              outline: none;
              box-shadow: none;
-         }
-
-        
+         }        
      }
 
      .accordion-body {
